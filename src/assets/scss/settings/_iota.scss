@@ -1,0 +1,28 @@
+$iota-global-breakpoint-separator: \@;
+
+$iota-global-delimiter: \/;
+
+$iota-global-breakpoints: (
+  xs: 'screen and ( min-width: 30em )',
+  // 480px
+    sm: 'screen and ( min-width: 48em )',
+  // 768px
+    md: 'screen and ( min-width: 62em )',
+  // 992px
+    lg: 'screen and ( min-width: 80em )',
+  // 1280px
+    xl: 'screen and ( min-width: 90em )',
+  // 1440px
+    xxl: 'screen and ( min-width: 100em )',
+  // 1600px,
+);
+
+$iota-global-columns: 12;
+
+$iota-global-gutter-default: 2rem;
+
+$iota-global-flex: true;
+
+$iota-global-rtl: false;
+
+@import 'node_modules/iotacss/settings/core';

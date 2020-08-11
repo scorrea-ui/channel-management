@@ -1,0 +1,25 @@
+.c-heading {
+  &--l1 {
+    @include type-size(level1);
+  }
+
+  &--l2 {
+    @include type-size(level2);
+  }
+
+  &--l3 {
+    @include type-size(level3);
+  }
+
+  &--l4 {
+    @include type-size(level4);
+  }
+
+  &--l5 {
+    @include type-size(level5);
+  }
+
+  &--l6 {
+    @include type-size(level6);
+  }
+}

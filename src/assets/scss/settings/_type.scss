@@ -1,0 +1,60 @@
+$type-sizes: (
+  body: (
+    1.6rem,
+    1.5,
+  ),
+  bodysm: (
+    1.5rem,
+    1.36,
+  ),
+  bodyxs: (
+    1rem,
+    1.1,
+  ),
+  level1: (
+    null: (
+      2.6rem,
+      1.36,
+    ),
+    md: (
+      3.6rem,
+      1.36,
+    ),
+  ),
+  level2: (
+    4rem,
+    1.45,
+  ),
+  level3: (
+    null: (
+      2rem,
+      1.125,
+    ),
+  ),
+  level4: (
+    3rem,
+    1.4,
+  ),
+  level5: (
+    2.8rem,
+    1.142,
+  ),
+  level6: (
+    2.4rem,
+    1.333,
+  ),
+  level7: (
+    2.2rem,
+    1.45,
+  ),
+  level8: (
+    2rem,
+    1,
+  ),
+  level9: (
+    1.3rem,
+    2.3,
+  ),
+);
+
+@import "node_modules/iotacss-objs-type/objects.type";

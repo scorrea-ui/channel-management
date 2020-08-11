@@ -1,0 +1,41 @@
+// Default variables
+$default-font-size: 62.5%;
+$default-text-color: color(black) !default;
+$default-letter-spacing: 0;
+$default-line-height: 1.618;
+
+* {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+
+  &:focus {
+    outline-style: auto;
+    outline-width: 0.3rem;
+    outline-color: rgb(59, 153, 252);
+    outline-color: -webkit-focus-ring-color;
+  }
+}
+
+html {
+  // A font-size of 62.5% will create a base font-size of 10px in most cases
+  font-size: 62.5%;
+  width: 100%;
+}
+
+body {
+  font: normal 1.6rem/1.6 $open-sans;
+  scroll-behavior: smooth;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}

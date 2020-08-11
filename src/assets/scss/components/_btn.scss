@@ -1,0 +1,12 @@
+.c-btn {
+  appearance: none;
+  border: none;
+  display: inline-flex;
+  &--primary {
+    border-radius: 2.9rem;
+    background: linear-gradient(#f3a233 0%, #f97e22 100%);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.16);
+    font-weight: 800;
+    max-width: 44.1rem;
+  }
+}

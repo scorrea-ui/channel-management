@@ -1,0 +1,28 @@
+/**
+ * Mixin Tools
+ *
+ */
+
+// Type size mixin - uses Iota-type tool to generate responsive heading styles
+@mixin type-size($t) {
+  @if map-has-key($type-sizes, $t) {
+    @include iota-type(map-get($type-sizes, '#{$t}'));
+  }
+}
+
+// aspect ratio background image
+@mixin bg-img-aspect-ratio($width, $height) {
+  height: 0;
+  padding-top: ($height/$width) * 100%;
+}
+
+/**
+ * Generate a solid class (for use in markup) and a silent class (for use with
+ * `@extend`) in one go.
+ */
+@mixin class($name) {
+  .#{$name},
+  %#{$name} {
+    @content;
+  }
+}

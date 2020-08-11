@@ -1,0 +1,9 @@
+$iota-utils-text-namespace: "text-" !default;
+$iota-utils-text-left-name: "left" !default;
+$iota-utils-text-right-name: "right" !default;
+$iota-utils-text-center-name: "center" !default;
+
+$iota-utils-text-res: true !default;
+$iota-utils-text-breakpoints: $iota-global-breakpoints !default;
+
+@import "node_modules/iotacss/utilities/text";

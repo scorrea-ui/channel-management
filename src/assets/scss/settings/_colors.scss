@@ -1,0 +1,20 @@
+$colors: (
+  black: #000,
+  white: #fff,
+  orange: #f97e22,
+  orange-10: #f3a233,
+  orange-20: #f97e22,
+  orange-30: #ff9900,
+  blue: #0268dc,
+  light-blue: #f2f9ff,
+  light-blue-10: #e1f1ff,
+  light-grey: #e2e2e2,
+);
+
+@function color($key) {
+  @if map-has-key($colors, $key) {
+    @return map-get($colors, $key);
+  }
+
+  @warn 'That color is not defined: \'#{$key}\'';
+}

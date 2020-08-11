@@ -1,0 +1,52 @@
+.c-hero {
+  @extend %u-bgimg-cover-ctr;
+
+  align-items: center;
+  background-image: url("https://f.hubspotusercontent40.net/hubfs/1709048/Channel/Banner-Background.jpg");
+  background-position: bottom;
+  color: color(white);
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 8.3rem auto;
+  min-height: 70rem;
+  width: 100%;
+
+  &__title {
+    @include type-size(level1);
+    font-weight: 900;
+    margin-bottom: 1.1rem;
+  }
+
+  &__subtitle {
+    @include type-size(level3);
+    font-weight: 500;
+    margin-bottom: 3.2rem;
+  }
+
+  &__wrapper {
+    margin: 0 auto;
+    max-width: 79.1rem;
+    text-align: center;
+  }
+
+  &__btn {
+    border-radius: 3.1rem;
+    background: #f90;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.16);
+    font-weight: 700;
+    padding: 1.1rem 2.7rem;
+    transition: 0.3s all ease-in;
+    width: 100%;
+
+    @include iota-breakpoint(md) {
+      padding: 1.1rem 10.7rem;
+    }
+
+    &:hover {
+      background-color: color(white);
+      color: #f90;
+    }
+
+    @include type-size(level7);
+  }
+}

@@ -1,0 +1,14 @@
+/*
+* Iota's position utility classes
+* https://www.iotacss.com/docs/utilities/position/
+*/
+$iota-utils-position-namespace            : '' !default;
+$iota-utils-position-absolute-name        : 'absolute' !default;
+$iota-utils-position-fixed-name           : 'fixed' !default;
+$iota-utils-position-relative-name        : 'relative' !default;
+$iota-utils-position-static-name          : 'static' !default;
+
+$iota-utils-position-res                  : true !default;
+$iota-utils-position-breakpoints          : $iota-global-breakpoints !default;
+
+@import 'node_modules/iotacss/utilities/position';
