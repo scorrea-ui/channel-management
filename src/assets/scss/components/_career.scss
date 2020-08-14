@@ -1,0 +1,5 @@
+.c-career {
+  & input[name="what_job_are_you_applying_for"] {
+    text-transform: capitalize;
+  }
+}

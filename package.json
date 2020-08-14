@@ -16,6 +16,7 @@
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.0",
     "autoprefixer": "^9.7.5",
+    "axios": "^0.19.2",
     "babel-loader": "^8.1.0",
     "browser-sync": "^2.26.7",
     "browser-sync-webpack-plugin": "^2.2.2",
@@ -42,6 +43,9 @@
     "webpack-merge": "^4.2.2"
   },
   "dependencies": {
+    "filepond": "^4.19.2",
+    "filepond-plugin-file-validate-size": "^2.2.1",
+    "filepond-plugin-file-validate-type": "^1.2.5",
     "iotacss": "^1.6.0"
   }
 }
